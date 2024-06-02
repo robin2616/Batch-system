@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+
+#mainlogo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+ transform: scale(0.7);
+}
+
+#btn1{
+    transform: scale(0.6);
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#text1{
+    transform: scale(0.5);
+    position: absolute;
+    top: 60px;
+    left: -120px;
+}
+
+#op1{
+    transform: scale(0.9);
+    position: absolute;
+    top: 180px;
+    width: 350px;
+    left: 20px;
+}
+#btn2{
+    transform: scale(0.7);
+    position: absolute;
+    top: 290px;
+    width: 350px;
+    left: 10px;
+}
+
+#text2{
+    transform: scale(0.9);
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+#list1{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    transform: scale(0.8);
+   
+}
+
+
+
+
+
+
+
+
+}

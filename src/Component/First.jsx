@@ -14,34 +14,37 @@ import redstar from './red-star.png'
 import redbell from './red-bell.png'
 import e1 from './Ellipse.png'
 import boy from './boy.png'
+import last from './last.png'
+import './First.css'
 function First(){
     return(<>
 
     <div className="h-[5887px] w-[1440px]">
-<img className='relative w-[117px] h-[34.41px] left-[175px] top-[53px]' src={Img1}></img>
-<div className='w-[378px] flex flex-row relative h-[26px] gap-6 left-[332px] top-[25px]'>
+<img id='mainlogo' className='relative w-[117px] h-[34.41px] left-[175px] top-[53px]' src={Img1}></img>
+<div id='list1' className='w-[378px] flex flex-row relative h-[26px] gap-6 left-[332px] top-[25px]'>
     <button className='w-[60px] hover:scale-105 hover:underline text-[#FF5555] relative h-[26px] text-xl font-bold leading-[26px] text-left'>Home</button>
     <button className='w-[100px]  hover:scale-105 hover:underline relative h-[26px] text-xl font-bold leading-[26px] text-left'>About us</button>
     <button className='w-[60px]  hover:scale-105  hover:underline relative h-[26px] text-xl font-bold leading-[26px] text-left'>Pricing</button>
     <button className='w-[60px] hover:scale-105 hover:underline text-xl font-bold leading-[26px] text-left'>Features</button>
 </div>
 
-<button className='w-[180px] hover:scale-110 relative text-white font-semibold text-xl h-[60px] rounded-[4px] left-[1085px] top-[-17px] bg-black '>Download</button>
+<button id='btn1' className='w-[180px] hover:scale-110 relative text-white font-semibold text-xl h-[60px] rounded-[4px] left-[1085px] top-[-17px] bg-black '>Download</button>
 
 
 <img src={img2}></img>
 
 
-<h1 className=' absolute w-[618px] h-32 text-[64px] font-bold leading-[64px] text-left left-[175px] top-[215px]'>Make the best financial decisions</h1>
-<span className=' absolute w-[638px] h-14 opacity-50 text-lg font-medium left-[175px] top-[367px]'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</span>
-<button className='w-[180px] hover:scale-110 absolute text-white font-semibold text-xl h-[60px] rounded-[4px] left-[175px] top-[447px] bg-black '>Get Started</button>
-<div className=' absolute w-[151px] h-7 text-2xl font-semibold leading-7 text-left left-[438px] top-[462px]'>Watch Video</div>
+<h1 id='text1' className=' absolute w-[618px] h-32 text-[64px] font-bold leading-[64px] text-left left-[175px] top-[215px]'>Make the best financial decisions</h1>
+<span id='op1' className=' absolute w-[638px] h-14 opacity-50 text-lg font-medium left-[175px] top-[367px]'>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</span>
+<button id='btn2' className='w-[180px] hover:scale-110 absolute text-white font-semibold text-xl h-[60px] rounded-[4px] left-[175px] top-[447px] bg-black '>Get Started</button>
+<div id='text2' className=' absolute w-[151px] h-7 text-2xl font-semibold leading-7 text-left left-[438px] top-[462px]'>Watch Video</div>
 
 <img className=' absolute w-[512.36px] h-[313.92px] left-[197.64px] top-[523.75px]' src={Img3} />
 
-<img src={i1} className=' absolute w-[249.25px] z-0 h-[504.32px] left-[771px] top-[180.51px]' />
-<img src={i2} className=' absolute w-[249.59px] z-10 h-[505.02px] left-[893px] top-[257.6px]'></img>
-<img src={i3} className=' absolute w-[249.25px] z-20 h-[504.32px] left-[790px] top-[220px]'></img>
+{/* <img src={i2} className=' absolute  w-[249.59px] h-[505.02px] left-[893px] top-[257.6px] '></img>
+<img src={i1} className='absolute w-[249.25px] h-[504.32px] right-[193px] top-[137.51px]' />
+
+<img src={i3} className=' absolute'></img> */}
 
 
 
@@ -178,8 +181,39 @@ function First(){
 <span className=' absolute  w-[474px] h-14 text-[28px] font-semibold leading-7 text-left left-[761px]  top-[4471.71px]'>The Best Financial Accounting App Ever!</span>
 <span className=' absolute w-[466px] h-14 text-lg font-medium leading-7  left-[761px] opacity-50 top-[4535.71px]'>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</span>
 
+<img src={last} className=' absolute w-[1090px] h-[508px] rounded-lg left-[175px] top-[4776.71px]' alt="" />
 
 
+{/* footer */}
+<img src={Img1} className=' absolute w-[117px] h-[34.41px] left-[175px] top-[5439.71px]' alt="" />
+<div className=' flex flex-col gap-4 absolute w-[82px] h-[210px] left-[413px] top-[5439.71px]'>
+    <span className='text-[32px] font-medium leading-[42px] text-left'>Links</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Home</span>
+    <span className='text-base font-medium leading-[26px] text-left'>About Us</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Bookings</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Blog</span>
+</div>
+
+<div className=' flex flex-col gap-4 absolute w-[108px] h-[168px] left-[560px] top-[5439.71px]'>
+    <span className='text-[32px] font-medium leading-[42px] text-left'>Legal</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Terms Of Use</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Privacy Policy</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Cookie Policy</span>
+
+</div>
+
+<div className=' flex flex-col gap-4 absolute w-[108px] h-[168px] left-[733px] top-[5439.71px]'>
+    <span className='text-[32px] font-medium leading-[42px] text-left'>Product</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Take Tour</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Live Chat</span>
+    <span className='text-base font-medium leading-[26px] text-left'>Reveiws</span>
+
+</div>
+
+<span className='absolute w-[173px] h-[42px] text-[32px] font-medium leading-[42px] text-left left-[926px] top-[5439.71px]'>Newsletter</span>
+<span className=' absolute w-[152px] h-[26px] text-base font-medium leading-[26px] text-left left-[926px] top-[5497.71px]'>Stay Up To Date</span>
+
+{/* <span className=' relative w-[356px] h-[26px] text-base font-medium leading-[26px] text-left left-[369px] top-[39px]'>Copyright 2022 Uifry.com All Rights Reserved</span> */}
     </div>
     </>)
 }
