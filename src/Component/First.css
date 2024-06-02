@@ -50,12 +50,132 @@
     transform: scale(0.8);
    
 }
+#img3{
+    position: absolute;
+    left: 25px;
+    top: 770px;
+    transform: scale(0.8);
+}
 
+#circle1{
+    position: relative;
+    translate: -360px -10px;
+    transform: scale(0.6);
+    
+}
+#box1{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -500px 300px;
+}
+#box2{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -170px 210px;
+ 
+}
+#circle2{
+   transform: scale(0.6);
+   translate: -760px 340px;
+   
+}
+#box3{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -160px 550px;
+ 
+}
+#box4{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -495px 700px;
+ 
+}
 
+#circle3{
+    transform: scale(0.6);
+    translate: -370px 450px; 
+ }
 
+ #box5{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -340px 580px;
+ 
+}
+#circle4{
+    transform: scale(0.6);
+    translate: -370px 530px; 
+ }
 
+ #box6{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -540px 890px;
+ 
+}
+#box7{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -120px 780px;
+}
+#box8{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -166px 780px;
+}
+#box9{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -500px 880px;
+    margin-top: 7px;
+}
+#box10{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -165px 1240px;
+    margin-top: 7px;
+}
+#box11{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -500px 880px;
+    margin-top: 7px;
+}
+#box12{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -165px 1000px;
+    margin-top: 7px;
+}
 
-
+#box13{
+    transform: scale(0.6);
+    width: 400px;
+    translate: -500px 880px;
+    margin-top: 7px;
+} 
+#lastbigimg{
+    transform: scale(0.8);
+    translate: -175px -480px;
+    
+}
+#footerlogo{
+    
+    translate: -55px -620px;
+}
+#foot1{
+ translate: -370px -530px;
+}
+#foot2{
+    translate: -370px -530px;
+}
+#foot3{
+    translate: -700px -270px;
+   }
+   #foot4{
+       translate: -740px -705px;
+   }
 
 
 }
