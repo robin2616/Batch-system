@@ -82,7 +82,7 @@ function First(){
 <span className=' absolute w-[359px] h-12 text-5xl font-bold leading-[48px] text-left left-[730px] top-[1103px]'>Uifry premium</span>
 
 <div className=' flex flex-row gap-2 absolute w-[207px] h-7 left-[730px] top-[1183px]'>
-    <img src={star} alt="" />
+    <img src={redstar} alt="" />
     <span className='text-lg font-bold leading-7 text-left'>Budgeting intervals</span>
     
 </div>
