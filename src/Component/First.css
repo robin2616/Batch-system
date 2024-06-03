@@ -196,5 +196,10 @@
     transform:  scale(0.6);
     translate: -480px -250px;
 }
+#inp{
+    transform: scale(0.6);
+    translate: -760px -320px;
+
+}
 
 }

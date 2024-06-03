@@ -11,6 +11,7 @@ import b1 from '/src/assets/b1.png'
 import cube1 from '/src/assets/cube-02.png'
 import cube2 from '/src/assets/cube-04.png'
 import redstar from '/src/assets/red-star.png'
+import inp from '/src/assets/input.png'
 import play from '/src/assets/play.png'
 import redbell from '/src/assets/red-bell.png'
 import star from '/src/assets/star.png'
@@ -260,7 +261,7 @@ function First(){
 <span className=' absolute w-[152px] h-[26px] text-base font-medium leading-[26px] text-left left-[926px] top-[5497.71px]'>Stay Up To Date</span>
 </div>
 <div id='copyright' className=' relative w-[356px] h-[26px] text-base font-medium left-[490px] top-[5197px]'>Copyright 2022 Uifry.com All Rights Reserved</div>
- 
+ <img id='inp' src={inp} className=' absolute w-[340px] h-[181px] rounded left-[826px] top-[5539.71px]' alt="" />
  
  
  
