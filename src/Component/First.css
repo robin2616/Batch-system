@@ -32,7 +32,7 @@
 #btn2{
     transform: scale(0.7);
     position: absolute;
-    top: 290px;
+    top: 300px;
     width: 350px;
     left: 10px;
 }
@@ -40,7 +40,7 @@
 #text2{
     transform: scale(0.9);
     position: absolute;
-    top: 350px;
+    top: 360px;
     left: 120px;
 }
 #list1{
@@ -52,9 +52,17 @@
 }
 #img3{
     position: absolute;
-    left: 25px;
-    top: 770px;
+    left: 15px;
+    top:750px ;
     transform: scale(0.8);
+ 
+}
+
+#atext{
+    transform: scale(0.2);
+    translate: -150px 220px;
+
+    transform: rotate(-15deg);
 }
 
 #circle1{
@@ -176,6 +184,17 @@
    #foot4{
        translate: -740px -705px;
    }
-
+#threemob{
+    transform: scale(0.6);
+    translate: -760px -100px;
+}
+#playbtn{
+    transform: scale(0.8);
+    translate: -300px -101px;
+}
+#copyright{
+    transform:  scale(0.6);
+    translate: -480px -250px;
+}
 
 }
